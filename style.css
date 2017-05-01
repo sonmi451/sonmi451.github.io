@@ -1,0 +1,144 @@
+body {
+	background: #ffffff;
+	padding-top: 0px;
+	padding-left: 0px;
+  padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.navigation {
+  position: fixed;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+  text-align: left;
+}
+
+.navigation td {
+	padding-top: 0px;
+	padding-left: 0px;
+  padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.navigation h1 {
+  position: relative;
+  color: #5a6472;
+	font-size: 20px;
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+	padding-left: 50px;
+}
+
+.navigation h2 {
+  position: relative;
+  color: #5a6472;
+  font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	padding-left: 50px;
+}
+
+.navigation img {
+  position: fixed;
+  vertical-align: center;
+	width: 200px;
+	height: auto;
+	padding-left: 80px;
+	padding-top: 29px;
+}
+
+.gallery {
+/* width: 80%; */
+	position: center;
+	padding-left: 300px;
+  padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  background-clip: content-box;
+}
+
+.gallery img {
+  position: relative;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.gallery h2 {
+	font-size: 20px;
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+	padding-left: 0px;
+}
+
+.gallery h3 {
+  position: fixed;
+  color: #2A2827;
+  text-align: left;
+	font-size: 15px;
+	font-family: 'Droid Serif', serif;
+	font-weight: italic;
+  padding-top: 300px;
+	padding-left: 25px;
+}
+
+.gallery p {
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	padding-left: 10px;
+}
+
+.gallery li {
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.navigation a:link {
+	text-decoration: none;
+	color: #e0ecff;
+}
+
+.navigation a:visited{
+	color: #e0ecff;
+}
+
+.navigation a:hover{
+	color: #e0ecff;
+	font-style: italic;
+	}
+
+.gallery a:link {
+	text-decoration: underline;
+  color: inherit;
+}
+
+.gallery a:visited{
+	color: #000000;
+}
+
+.gallery a:hover{
+	color: #808080;
+	font-style: italic;
+	padding-left: 2px;
+	}
+
+.navigation img {
+	  position: fixed;
+	  vertical-align: center;
+		width: 200px;
+		height: auto;
+		padding-left: 80px;
+		padding-top: 29px;
+	}
