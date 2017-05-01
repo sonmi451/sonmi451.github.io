@@ -18,6 +18,7 @@ body {
 }
 
 .navigation td {
+	width: 50px;
 	padding-top: 0px;
 	padding-left: 0px;
   padding-right: 0px;
@@ -30,7 +31,7 @@ body {
 	font-size: 20px;
 	font-family: 'Droid Serif', serif;
 	font-weight: bold;
-	padding-left: 50px;
+	padding-left: 60px;
 }
 
 .navigation h2 {
@@ -40,15 +41,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	padding-left: 50px;
-}
-
-.navigation img {
-  position: fixed;
-  vertical-align: center;
-	width: 200px;
-	height: auto;
-	padding-left: 80px;
-	padding-top: 29px;
 }
 
 .gallery {
@@ -63,6 +55,17 @@ body {
 
 .gallery img {
   position: relative;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.gallery iframe {
+	position: relative;
 	text-align: center;
 	width: 300px;
 	height: 300px;
@@ -107,11 +110,11 @@ body {
 
 .navigation a:link {
 	text-decoration: none;
-	color: #e0ecff;
+	color: #5f6266;
 }
 
 .navigation a:visited{
-	color: #e0ecff;
+	color: #5f6266;
 }
 
 .navigation a:hover{
@@ -125,20 +128,11 @@ body {
 }
 
 .gallery a:visited{
-	color: #000000;
+	color: #5f6266;
 }
 
 .gallery a:hover{
-	color: #808080;
+	color: #5f6266;
 	font-style: italic;
 	padding-left: 2px;
-	}
-
-.navigation img {
-	  position: fixed;
-	  vertical-align: center;
-		width: 200px;
-		height: auto;
-		padding-left: 80px;
-		padding-top: 29px;
 	}
