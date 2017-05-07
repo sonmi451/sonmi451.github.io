@@ -5,9 +5,12 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto|Indie+Flower|News+Cycle" rel="stylesheet">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts.js"></script>
   <title>
     Mousehouse
   </title>
+
 </head>
 
 <body>
@@ -24,8 +27,26 @@
         <h1><a href = "./index.html">Gallery.</a></h1>
       </td>
       <td>
-        <h1><a href = "#live">Live.</a></h1>
+        <h1><a href = "#live">Video.</a></h1>
       </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      <h3 id="AwakeTimeCheck" class="AwakeTimeCheck">
+        <script>
+        var now = new Date();
+        var hours = now.getHours()
+        if (hours%24 > 8) {
+          AwakeTimeCheck = "It is mouse awake time!";
+        } else {
+        AwakeTimeCheck = "It is mouse asleep time.";
+        }
+
+        document.write(AwakeTimeCheck);
+
+        </script>
+    </h3>
+    </td>
     </tr>
   </table>
 </div>
@@ -38,11 +59,12 @@
   <img src="./gallery/Moli2.jpg">
   <img src="./gallery/Luna3.jpg">
   <img src="./gallery/Moli1.jpg">
+  <img src="./gallery/Sleepy1.jpg">
   <img src="./gallery/Luna1.jpg">
 </div>
 
 <div id="live" class="live">
-  <iframe width="420" height="315" src="http://www.youtube.com/embed/ycBHttB3ENE" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QZKhyTKUhxI?ecver=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 </body>

@@ -1,5 +1,5 @@
 body {
-	background: #ffffff;
+	/*background: #ffffff;*/
 	padding-top: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -43,6 +43,15 @@ body {
 	padding-left: 50px;
 }
 
+.navigation h3 {
+	position: relative;
+	color: #5a6472;
+	font-size: 15px;
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+	padding-left: 60px;
+}
+
 .gallery {
 	/* width: 80%; */
 	position: center;
@@ -56,12 +65,12 @@ body {
 .gallery img {
 	position: relative;
 	text-align: center;
-	width: 300px;
-	height: 300px;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	width: 250px;
+	height: 250px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .gallery h2 {
@@ -137,10 +146,10 @@ body {
 }
 
 .live iframe {
-	position: relative;
+	position: absolute;
 	text-align: center;
-	width: 300px;
-	height: 300px;
+	height: 500px;
+	width: 500px;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 30px;
