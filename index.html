@@ -20,23 +20,14 @@
         <td colspan ="5">
           <h2>Mousehouse</h2>
         </td>
-      </td>
     </tr>
     <tr>
-      <td>
-        <h1><a href = "./index.html">Gallery.</a></h1>
-      </td>
-      <td>
-        <h1><a href = "#live">Video.</a></h1>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">
+      <td colspan="5">
       <h3>
         <script>
         var now = new Date();
         var hours = now.getHours()
-        if (hours%24 > 8) {
+        if (hours > 19 || hours < 8) {
           AwakeTimeCheck = "It is mouse awake time!";
         } else {
         AwakeTimeCheck = "It is mouse asleep time.";
@@ -46,6 +37,14 @@
         </script>
     </h3>
     </td>
+    </tr>
+    <tr>
+      <td>
+        <h1><a href = "./index.html">Gallery.</a></h1>
+      </td>
+      <td>
+        <h1><a href = "#live">Video.</a></h1>
+      </td>
     </tr>
   </table>
 </div>
