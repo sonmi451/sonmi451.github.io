@@ -21,54 +21,60 @@
         <td colspan ="5">
           <h2>Mousehouse</h2>
         </td>
-    </tr>
-    <tr>
-      <td>
-        <h1><a href = "./index.html">Gallery.</a></h1>
-      </td>
-      <td>
-        <h1><a href = "#live">Video.</a></h1>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="5">
-      <br>
-      <h3>
-        <script>
-        var now = new Date();
-        var hours = now.getHours()
-        if (hours > 18 || hours < 8) {
-          AwakeTimeCheck = "It is mouse awake time!";
-        } else {
-        AwakeTimeCheck = "It is mouse asleep time.";
-        }
-        document.write(AwakeTimeCheck);
+      </tr>
+      <tr>
+        <td colspan="5">
+          <br>
+          <h3>
+            <script>
+            var now = new Date();
+            var hours = now.getHours()
+            if (hours > 18 || hours < 8) {
+              AwakeTimeCheck = "It is mouse awake time!";
+            } else {
+              AwakeTimeCheck = "It is mouse asleep time.";
+            }
+            document.write(AwakeTimeCheck);
+            </script>
+          </h3>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h1><a href = "./index.html">Gallery.</a></h1>
+        </td>
+        <td>
+          <h1><a href = "#live">Video.</a></h1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h1><a href = "https://www.instagram.com/sonmifourone/">Mousetagram.</a></h1>
+        </td>
+      </tr>
+    </table>
+  </div>
 
-        </script>
-    </h3>
-    </td>
-    </tr>
+  <div id="gallery" class="gallery">
+    <img src="./gallery/Yorki2.jpg">
+    <img src="./gallery/Saturn1.jpg">
+    <img src="./gallery/Yorki3.jpg">
+    <img src="./gallery/Luna2.jpg">
+    <img src="./gallery/Moli2.jpg">
+    <img src="./gallery/Yorki4.jpg">
+    <img src="./gallery/Luna3.jpg">
+    <img src="./gallery/Moli1.jpg">
+    <img src="./gallery/Sleepy1.jpg">
+    <img src="./gallery/Luna1.jpg">
+    <img src="./gallery/Moli3.jpg">
+    <img src="./gallery/Yorki5.jpg">
+  </div>
 
-  </table>
-</div>
-
-<div id="gallery" class="gallery">
-  <img src="./gallery/Yorki2.jpg">
-  <img src="./gallery/Saturn1.jpg">
-  <img src="./gallery/Yorki3.jpg">
-  <img src="./gallery/Luna2.jpg">
-  <img src="./gallery/Moli2.jpg">
-  <img src="./gallery/Luna3.jpg">
-  <img src="./gallery/Moli1.jpg">
-  <img src="./gallery/Sleepy1.jpg">
-  <img src="./gallery/Luna1.jpg">
-</div>
-
-<div id="live" class="live">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UCKPdhx7eNehRsFYLON5NGBw&autoplay=1" frameborder="0" allowfullscreen></iframe>
-<br>
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QZKhyTKUhxI?ecver=1" frameborder="0" allowfullscreen></iframe> -->
-</div>
+  <div id="live" class="live">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UCKPdhx7eNehRsFYLON5NGBw&autoplay=1" frameborder="0" allowfullscreen></iframe>
+    <br>
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QZKhyTKUhxI?ecver=1" frameborder="0" allowfullscreen></iframe> -->
+  </div>
 
 </body>
 </html>
