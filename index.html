@@ -26,15 +26,28 @@
         <td colspan="5">
           <br>
           <h3>
+            <!--input type="file" id="files" name="files"/-->
             <script>
+            //var reader = new FileReader();
+
+            //var sunset
+            //var sunrise
+
+            //SunRiseSet.readAsText("./Sun_rise_set.txt", "UTF-8")
+
             var now = new Date();
-            var hours = now.getHours()
+            var secondsOfDay = now.getMinutes();
+            var hoursOfToday = now.getHours();
+            var dayOfMonth = now.getDay();
+            var monthOfYear = now.getMonth();
+            var year = now.getFullYear();
             if (hours > 18 || hours < 8) {
               AwakeTimeCheck = "It is mouse awake time!";
             } else {
               AwakeTimeCheck = "It is mouse asleep time.";
             }
             document.write(AwakeTimeCheck);
+
             </script>
           </h3>
         </td>
@@ -73,7 +86,7 @@
   </div>
 
   <div id="live" class="live">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UCKPdhx7eNehRsFYLON5NGBw&autoplay=1" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/B8SIBNlWHPk?controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     <br>
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QZKhyTKUhxI?ecver=1" frameborder="0" allowfullscreen></iframe> -->
   </div>
