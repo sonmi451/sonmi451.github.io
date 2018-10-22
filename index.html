@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <html>
-
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto|Indie+Flower|News+Cycle" rel="stylesheet">
@@ -10,7 +9,6 @@
   <title>
     Mousehouse
   </title>
-
 </head>
 
 <body>
@@ -70,7 +68,6 @@
     gallery[4]='<img src="./gallery/Yorki5.jpg">'
     gallery[5]='<img src="./gallery/Saturn1.jpg">'
     gallery[6]='<img src="./gallery/Saturn2.jpg">'
-    gallery[19]='<img src="./gallery/Saturn3.jpg">'
     gallery[7]='<img src="./gallery/Luna1.jpg">'
     gallery[8]='<img src="./gallery/Luna2.jpg">'
     gallery[9]='<img src="./gallery/Luna3.jpg">'
@@ -83,26 +80,32 @@
     gallery[16]='<img src="./gallery/Moli7.jpg">'
     gallery[17]='<img src="./gallery/Sleepy1.jpg">'
     gallery[18]='<img src="./gallery/Zenit1.jpg">'
+    gallery[19]='<img src="./gallery/Saturn3.jpg">'
+
 
     var i=0
     var random
 
     while (i<gallery.length){
-        random=Math.floor(Math.random()*gallery.length)
-        if (gallery[random]!="selected"){
-            document.write(gallery[random])
-            gallery[random]="selected"
-            i++
-        }
+      random=Math.floor(Math.random()*gallery.length)
+      if (gallery[random]!="selected"){
+        document.write(gallery[random])
+        gallery[random]="selected"
+        i++
+      }
     }
 
     </script>
-    <br>
   </div>
-
   <div id="live" class="live">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/B8SIBNlWHPk?controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    <br>
+    <tr>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/B8SIBNlWHPk?controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </tr>
+  </div>
+  <div id="live" class="live">
+    <tr>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/QZKhyTKUhxI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </tr>
   </div>
 
 </body>
