@@ -9,16 +9,17 @@ body {
 .navigation {
 	position: fixed;
 	padding-top: 0px;
-	padding-left: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
 	padding-bottom: 0px;
 	left: 0px;
 	top: 0px;
 	width: 100%;
-	text-align: left;
+	text-align: right;
 }
 
 .navigation td {
-	width: 50px;
+	width: 60px;
 	padding-top: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -27,29 +28,32 @@ body {
 
 .navigation h1 {
 	position: relative;
+	text-align: inherit;
 	color: #5a6472;
 	font-size: 20px;
 	font-family: 'Droid Serif', serif;
 	font-weight: bold;
-	padding-left: 60px;
 }
 
 .navigation h2 {
 	position: relative;
+	text-align: right;
 	color: #5a6472;
 	font-size: 40px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-	padding-left: 50px;
+	padding-right: -100px;
 }
 
 .navigation h3 {
 	position: relative;
+	text-align: inherit;
 	color: #5a6472;
 	font-size: 15px;
-	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto', serif;
 	font-weight: bold;
-	padding-left: 60px;
+	padding-right: -100px;
+
 }
 
 .gallery {
