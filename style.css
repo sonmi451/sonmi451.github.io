@@ -3,32 +3,36 @@ body {
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
+	font-size: 20px;
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+	color: #5a6472;
+}
+
+.navigation a:link {
+	text-decoration: none;
+	color: #5a6472;
+}
+
+.navigation a:visited{
+	color: #5a6472;
+}
+
+.navigation a:hover{
+	color: #cee6ff;
+	font-style: italic;
 }
 
 .navigation {
 	position: fixed;
-	padding-top: 0px;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-bottom: 0px;
-	left: 0px;
-	top: 0px;
-	width: 100%;
+	width: 300px;
 	text-align: right;
-}
-
-.navigation td {
-	width: 60px;
-	padding-top: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
 }
 
 .navigation h1 {
 	position: relative;
 	text-align: inherit;
-	color: #5a6472;
+	color: inherit;
 	font-size: 20px;
 	font-family: 'Droid Serif', serif;
 	font-weight: bold;
@@ -36,8 +40,8 @@ body {
 
 .navigation h2 {
 	position: relative;
-	text-align: right;
-	color: #5a6472;
+	text-align: inherit;
+	color: inherit;
 	font-size: 40px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
@@ -47,21 +51,20 @@ body {
 .navigation h3 {
 	position: relative;
 	text-align: inherit;
-	color: #5a6472;
+	color: inherit;
 	font-size: 15px;
 	font-family: 'Roboto', serif;
 	font-weight: bold;
+	font-style: italic;
 	padding-right: -100px;
-
 }
 
 .gallery {
-	/* width: 80%; */
 	position: center;
-	padding-left: 300px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-left: 350px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	background-clip: content-box;
 }
 
@@ -76,75 +79,12 @@ body {
 	padding-bottom: 20px;
 }
 
-.gallery h2 {
-	font-size: 20px;
-	font-family: 'Droid Serif', serif;
-	font-weight: bold;
-	padding-left: 0px;
-}
-
-.gallery h3 {
-	position: fixed;
-	color: #2A2827;
-	text-align: left;
-	font-size: 15px;
-	font-family: 'Droid Serif', serif;
-	font-weight: italic;
-	padding-top: 300px;
-	padding-left: 25px;
-}
-
-.gallery p {
-	font-size: 15px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: normal;
-	padding-left: 10px;
-}
-
-.gallery li {
-	font-size: 15px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: normal;
-	padding-left: 10px;
-	padding-bottom: 5px;
-}
-
-.navigation a:link {
-	text-decoration: none;
-	color: #5f6266;
-}
-
-.navigation a:visited{
-	color: #5f6266;
-}
-
-.navigation a:hover{
-	color: #e0ecff;
-	font-style: italic;
-}
-
-.gallery a:link {
-	text-decoration: underline;
-	color: inherit;
-}
-
-.gallery a:visited{
-	color: #5f6266;
-}
-
-.gallery a:hover{
-	color: #5f6266;
-	font-style: italic;
-	padding-left: 2px;
-}
-
 .live {
-	/* width: 80%; */
-	position: center;
-	padding-left: 300px;
-	padding-right: 100px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	position: relative;
+	margin-left: 350px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	background-clip: content-box;
 }
 
@@ -157,4 +97,46 @@ body {
 	padding-right: 30px;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+.about {
+	position: relative;
+	margin-left: 350px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-clip: content-box;
+	color: #444d5b;
+}
+
+.about a:link {
+	/* text-decoration: none; */
+	color: #2d4556;
+}
+
+.about a:visited{
+	color: #2d4556;
+}
+
+.about a:hover{
+	color: #bec9d1;
+	/* font-style: bold; */
+}
+
+.about h1 {
+	position: relative;
+	text-align: inherit;
+	color: inherit;
+	font-size: 40px;
+	font-family:'Roboto';
+}
+
+.about p {
+	position: relative;
+	text-align: inherit;
+	color: inherit;
+	font-size: 20px;
+	font-family:'La Belle Aurore';	/* font-weight: bold; */
+	/* font-style: italic; */
+	padding-right: 200px;
 }
