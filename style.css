@@ -131,12 +131,20 @@ body {
 	font-family:'Roboto';
 }
 
+.about h2 {
+	position: relative;
+	text-align: inherit;
+	color: inherit;
+	font-size: 22px;
+	font-family:'Droid Serif';
+}
+
 .about p {
 	position: relative;
 	text-align: inherit;
 	color: inherit;
-	font-size: 20px;
-	font-family:'La Belle Aurore';	/* font-weight: bold; */
-	/* font-style: italic; */
+	font-size: 22px;
+	font-family:'La Belle Aurore';
 	padding-right: 200px;
+	padding-left: 15px;
 }
