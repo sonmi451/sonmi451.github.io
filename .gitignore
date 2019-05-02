@@ -1,0 +1,5 @@
+###################
+# FILES TO IGNORE #
+
+## OSX
+.DS_Store
